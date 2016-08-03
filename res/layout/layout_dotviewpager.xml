@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:daemon="http://schemas.android.com/apk/res/com.xiangde.mychat_tencent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="horizontal" >
+
+    <com.xiangde.dy.imchat.ui.customview.DotViewPager
+        android:id="@+id/my_viewpager"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        daemon:changeInterval="3000"
+        daemon:dotsBackground="#00FFFFF0"
+        daemon:dotsBgAlpha="0.5"
+        daemon:dotsBlurImage="@drawable/point_focused"
+        daemon:dotsFocusImage="@drawable/point_unfocused"
+        daemon:dotsSpacing="3dp"
+        daemon:dotsViewHeight="10dp" >
+
+        <!-- 15dp -->
+    </com.xiangde.dy.imchat.ui.customview.DotViewPager>
+    <!-- "#00FFFFF0" -->
+
+</LinearLayout>
